@@ -12,12 +12,18 @@
         "name": "Evgeni Razumov",
         "email": "razumov.evgeni@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/daniel-de-wit/Laravel-FCM"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
-        "brozot/laravel-fcm": "~1.2.6",
-        "illuminate/notifications": "^6.0",
-        "illuminate/queue": "^6.0",
-        "illuminate/support": "^6.0"
+        "brozot/laravel-fcm": "dev-master",
+        "illuminate/notifications": "5.*|^6",
+        "illuminate/queue": "5.*|^6",
+        "illuminate/support": "5.*|^6"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~1.12.2",
