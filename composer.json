@@ -14,7 +14,7 @@
     }],
     "require": {
         "php": ">=5.5.9",
-        "brozot/laravel-fcm": "~1.2.5",
+        "brozot/laravel-fcm": "~1.2.6",
         "illuminate/notifications": "^6.0",
         "illuminate/queue": "^6.0",
         "illuminate/support": "^6.0"
