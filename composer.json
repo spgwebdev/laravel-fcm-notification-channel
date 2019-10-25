@@ -15,9 +15,9 @@
     "require": {
         "php": ">=5.5.9",
         "brozot/laravel-fcm": "~1.2.5",
-        "illuminate/notifications": "~5.3",
-        "illuminate/queue": "~5.1",
-        "illuminate/support": "~5.1"
+        "illuminate/notifications": "^5.1|^6.0",
+        "illuminate/queue": "^5.1|^6.0",
+        "illuminate/support": "^5.1|^6.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~1.12.2",
