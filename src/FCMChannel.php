@@ -62,7 +62,7 @@ class FCMChannel
 
         $response = $this->sender->{$method}(...$message->getArgs());
 
-        $this->events->fire(new MessageWasSended($response, $notifiable));
+        $this->events->dispatch(new MessageWasSended($response, $notifiable));
 
         return $response;
     }
